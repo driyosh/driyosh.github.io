@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: "61c8e8a2-d2ea-4211-b747-147c72e5f8b0"
+      url: "https://grand-blini-be0be3.netlify.app"
