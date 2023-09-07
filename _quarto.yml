@@ -11,12 +11,12 @@ website:
     alignment: left
     contents:
       - href: index.qmd
-        text: "Main"
+        text: "Home"
       - href: about.qmd
-        text: "On me"
+        text: "About myself"
       - section: Writing
         contents: posts
-      - section: Culture
+      - section: Exploring
         contents: exploration
 
 format:
