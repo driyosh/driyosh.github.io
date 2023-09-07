@@ -3,7 +3,6 @@ project:
   output-dir: docs
 
 website:
-  reader-mode: true
   sidebar:
     title: "Navigation"
     style: floating
@@ -13,7 +12,7 @@ website:
       - href: index.qmd
         text: "Index"
       - href: about.qmd
-        text: "Self-exhibition"
+        text: "Motivation"
       
 format:
   html:
