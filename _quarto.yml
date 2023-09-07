@@ -3,18 +3,34 @@ project:
   output-dir: docs
 
 website:
-  title: "driyosh.github.io"
-  navbar:
-    left:
+  reader-mode: true
+  sidebar:
+    title: "Navigation"
+    style: floating
+    search: true
+    alignment: left
+    contents:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: "Main"
+      - href: about.qmd
+        text: "On me"
+      - section: Writing
+        contents: posts
+      - section: Culture
+        contents: exploration
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    mainfont: "EB Garamond"
+    backgroundcolor: "#F5F5F4"
+    link-external-icon: true
+    smooth-scroll: true
+    citations-hover: true
+    footnotes-hover: true
+
 
 execute:
   freeze: auto

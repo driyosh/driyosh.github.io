@@ -1,5 +1,8 @@
 ---
-title: "Driyosh"
+title: ""
 ---
 
-Setting up a Quarto personal website.
+Greetings! I'm a grad student by day, and a writer by night. The two complement each other as I learn by writing. But I write also to share what I've learned with others, primarily those with better things to do in life than reading 500-page tomes, and learn from their insights.
+
+Having left home as a teenager, I've lived and learned in unfamiliar surroundings and inhabited discordant social realities for the better part of my life. I've grown to value both the common threads interlaced across our intricate inner lattice and the rich diversity of experiences contributing to this mosaic. I'm deeply curious about the world and the people who call it home. I limp around the edges of understanding with analogies to orient me, and this feeds into my passion for translating concepts, ideas, and beliefs across disparate contexts and time. This digital artifact serves as a record of my mischief-making and as an open invitation to all who find peace in pursuing their curiosities. You can read more about what drives [me](about.qmd), or sample some of my posts here.
+
