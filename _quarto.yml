@@ -11,14 +11,10 @@ website:
     alignment: left
     contents:
       - href: index.qmd
-        text: "Home"
+        text: "Index"
       - href: about.qmd
-        text: "About myself"
-      - section: Writing
-        contents: posts
-      - section: Exploring
-        contents: exploration
-
+        text: "Self-exhibition"
+      
 format:
   html:
     theme: cosmo
