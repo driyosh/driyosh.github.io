@@ -5,7 +5,7 @@ project:
 website:
   sidebar:
     title: "Navigation"
-    style: floating
+    style: docked
     search: true
     alignment: left
     contents:
@@ -23,7 +23,7 @@ format:
     css: styles.css
     toc: true
     mainfont: "EB Garamond"
-    backgroundcolor: "#F5F5F4"
+    backgroundcolor: "#F9F9F9"
     link-external-icon: true
     smooth-scroll: true
     citations-hover: true
