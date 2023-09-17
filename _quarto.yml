@@ -13,6 +13,9 @@ website:
         text: "Index"
       - href: about.qmd
         text: "Motivation"
+      - section: "Wandering"
+        contents: exploration/*
+        
       
 format:
   html:
