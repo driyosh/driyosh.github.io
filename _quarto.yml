@@ -16,7 +16,7 @@ website:
       - href: index.qmd
         text: "Index"
       - href: about.qmd
-        text: "Motivation"
+        text: "Academic interests"
       - section: "Wandering"
         contents: posts/exploration/*
       # - section: "Minutiae"

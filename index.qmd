@@ -8,8 +8,18 @@ listing:
     fields: [date, title, categories, reading-time]
 ---
 
+> (the) Pahlavi (word) *driyosh* meaning ‘Wayfarer’, ‘one who goes from town to town’ in search of Knowledge, he had to earn his food by his means. He could not live like a hermit in solitude, he had to live in public.
+
 Greetings! I'm a grad student by day, and a writer by night. These two facets complement each other well: I learn by writing, but I also write to share with others all that I've grokked, to learn from _their_ insights^[The L-word is a mainstay of my personality.].
 
-Having left home as a teenager, I've lived and learned in unfamiliar surroundings and inhabited discordant social realities for the better part of my life. The common threads in our inner lattice and the melody from our idiosyncratic chords both fascinate me. I'm deeply curious about the world and the people who call it home. I limp around the edges of understanding with the help of analogies, which feeds into my passion for translating concepts, ideas, and beliefs across disparate contexts and time. This digital artifact serves as record of my mischief-making and as an open invitation to all who find their peace in pursuing what plucks their heartstrings. You can read more about what drives [me](about.qmd), or sample some of my posts here.
+Having left home as a teenager, I've lived and learned in unfamiliar surroundings and inhabited discordant social realities for the better part of my life. The common threads in our inner lattice and the melody from our idiosyncratic chords both fascinate me. I'm deeply curious about the world and the people who call it home. I limp around the edges of understanding with the help of analogies, which feeds into my passion for translating concepts, ideas, and beliefs across disparate contexts and time. This digital artifact serves as record of my mischief-making and as an open invitation to all who find their peace in pursuing what plucks their heartstrings. You can read more about my academic interests [here](about.qmd), or sample some of my posts here.
 
+I'm inching forwards on the following essays:
+
+* **Markets, what are they good for?** I explore the connection between individual beliefs and market prices in tedious detail. As recompense, I offer funky simulations, some tips for gambling, and an earnest call to the religion of Bayes.
+
+* **Learning and exploration in social networks.** As much as we'd like to think otherwise, we're mostly not original thinkers. Many of our "first [x]"'s in life were accomplished by imitating those around us, and we've stuck with the racket since. There's nothing _intrinsically_ wrong with imitative learning, but novel ideas generally come from independent exploration, not to mention the benefits of learning-by-doing: watching someone ride a bike doesn't get one very far. I explore the ways quantitative social scientists think about social learning and why being handed the answer-key might inhibit innovation.
+
+* **The creative struggle of Robert Musil.** I'm fascinated by creative processes: both the sane bits and the quirky routines adopted by creatives to ascend to "the zone". I particularly enjoy nose-dives into the diaries of masterful writers: their articulate entries, judiciously recorded over years and decades, often as a way to stimulate their creative mind, offer an intimate window into the ebbs and flows of creative pursuits. Robert Musil, one of my favorite writers, is no exception to this, and his diaries, spanning over forty years of his life, have kernels of insight into creative struggle that I'm looking to share. 
+ 
 
