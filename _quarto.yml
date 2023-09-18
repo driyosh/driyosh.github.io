@@ -34,6 +34,8 @@ format:
     smooth-scroll: true
     citations-hover: true
     footnotes-hover: true
+    reference-location: margin
+    page-layout: article
 
 
 execute:

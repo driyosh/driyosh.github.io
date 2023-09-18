@@ -63,20 +63,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-posts-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-categories','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-posts-listing'] = new List('listing-posts-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 <link rel="alternate" type="application/rss+xml" title="Driyosh" href="index.xml"></head>
 
-<body class="nav-sidebar docked">
+<body class="nav-sidebar docked slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -192,7 +192,7 @@ ul.task-list li input[type="checkbox"] {
       margin: 1px;
       border-radius: 50%;
       border: 4px solid #fff;
-    border-color: #ffffff #ffffff #ffffff transparent;
+    border-color: #F9F9F9 #F9F9F9 #F9F9F9 transparent;
     animation: ml-form-embedSubmitLoad 1.2s linear infinite;
     }
     @keyframes ml-form-embedSubmitLoad {
@@ -218,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
         letter-spacing: normal !important;
       }
       #mlb2-7803835.ml-form-embedContainer .ml-form-embedWrapper {
-        background-color: #f6f6f6;
+        background-color: #F9F9F9;
         
         border-width: 0px;
         border-color: transparent;
@@ -352,7 +352,7 @@ ul.task-list li input[type="checkbox"] {
         border-radius: 4px !important;
         border-style: solid !important;
         border-width: 1px !important;
-        font-family: Helvetica, sans-serif;
+        font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
         font-size: 14px !important;
         height: auto;
         line-height: 21px !important;
@@ -384,7 +384,7 @@ ul.task-list li input[type="checkbox"] {
         border-radius: 4px !important;
         border-style: solid !important;
         border-width: 1px !important;
-        font-family: Helvetica, sans-serif;
+        font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
         font-size: 14px !important;
         height: auto;
         line-height: 21px !important;
@@ -560,7 +560,7 @@ ul.task-list li input[type="checkbox"] {
         border-radius: 4px !important;
         border-style: solid !important;
         border-width: 1px !important;
-        font-family: Helvetica, sans-serif;
+        font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
         font-size: 14px !important;
         line-height: 20px !important;
         margin-bottom: 0;
@@ -595,7 +595,7 @@ ul.task-list li input[type="checkbox"] {
         border-radius: 4px;
         border-style: solid;
         border-width: 1px;
-        font-family: Helvetica, sans-serif;
+        font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
         font-size: 14px;
         line-height: 20px;
         margin-bottom: 0;
@@ -612,9 +612,9 @@ ul.task-list li input[type="checkbox"] {
         border-width: 1px;
         border-radius: 4px;
         box-shadow: none;
-        color: #ffffff !important;
+        color: #F9F9F9 !important;
         cursor: pointer;
-        font-family: Helvetica, sans-serif;
+        font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
         font-size: 14px !important;
         font-weight: 700;
         line-height: 20px;
@@ -683,9 +683,9 @@ ul.task-list li input[type="checkbox"] {
         border: none !important;
         border-radius: 4px !important;
         box-shadow: none !important;
-        color: #ffffff !important;
+        color: #F9F9F9 !important;
         cursor: pointer;
-        font-family: Helvetica, sans-serif !important;
+        font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif !important;
         font-size: 14px !important;
         font-weight: 700 !important;
         line-height: 21px !important;
@@ -917,10 +917,7 @@ ul.task-list li input[type="checkbox"] {
 
           <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
 
-            <div class="ml-form-embedContent" style=" ">
-              
-                <h4>Get an email about new posts</h4>
-                
+            <div class="ml-form-embedContent" style="margin-bottom: 0px; ">
               
             </div>
 
@@ -1040,7 +1037,7 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -1062,24 +1059,13 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p>(the) Pahlavi (word) <em>driyosh</em> meaning ‘Wayfarer’, ‘one who goes from town to town’ in search of Knowledge, he had to earn his food by his means. He could not live like a hermit in solitude, he had to live in public.</p>
 </blockquote>
-<p>Greetings! I’m a grad student by day, and a writer by night. These two facets complement each other well: I learn by writing, but I also write to share with others all that I’ve grokked, to learn from <em>their</em> insights<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<div class="page-columns page-full"><p>Greetings! I’m a grad student by day, and a writer by night. These two facets complement each other well: I learn by writing, but I also write to share with others all that I’ve grokked, to learn from <em>their</em> insights<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;The L-word is a mainstay of my personality.</p></li></div></div>
 <p>Having left home as a teenager, I’ve lived and learned in unfamiliar surroundings and inhabited discordant social realities for the better part of my life. The common threads in our inner lattice and the melody from our idiosyncratic chords both fascinate me. I’m deeply curious about the world and the people who call it home. I limp around the edges of understanding with the help of analogies, which feeds into my passion for translating concepts, ideas, and beliefs across disparate contexts and time. This digital artifact serves as record of my mischief-making and as an open invitation to all who find their peace in pursuing what plucks their heartstrings. You can read more about my academic interests <a href="./about.html">here</a>, or sample some of my posts here.</p>
-<p>I’m inching forwards on the following essays:</p>
-<ul>
-<li><p><strong>Markets, what are they good for?</strong> I explore the connection between individual beliefs and market prices in tedious detail. As recompense, I offer funky simulations, some tips for gambling, and an earnest call to the religion of Bayes.</p></li>
-<li><p><strong>Learning and exploration in social networks.</strong> As much as we’d like to think otherwise, we’re mostly not original thinkers. Many of our “first [x]”’s in life were accomplished by imitating those around us, and we’ve stuck with the racket since. There’s nothing <em>intrinsically</em> wrong with imitative learning, but novel ideas generally come from independent exploration, not to mention the benefits of learning-by-doing: watching someone ride a bike doesn’t get one very far. I explore the ways quantitative social scientists think about social learning and why being handed the answer-key might inhibit innovation.</p></li>
-<li><p><strong>The creative struggle of Robert Musil.</strong> I’m fascinated by creative processes: both the sane bits and the quirky routines adopted by creatives to ascend to “the zone”. I particularly enjoy nose-dives into the diaries of masterful writers: their articulate entries, judiciously recorded over years and decades, often as a way to stimulate their creative mind, offer an intimate window into the ebbs and flows of creative pursuits. Robert Musil, one of my favorite writers, is no exception to this, and his diaries, spanning over forty years of his life, have kernels of insight into creative struggle that I’m looking to share.</p></li>
-</ul>
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div id="listing-posts-listing" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+     <select id="listing-posts-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-posts-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
          <option value="listing-date-sort" data-direction="asc">
@@ -1109,9 +1095,6 @@ ul.task-list li input[type="checkbox"] {
 <a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
 </th>
 <th>
-Categories
-</th>
-<th>
 Reading Time
 </th>
 </tr>
@@ -1124,8 +1107,6 @@ Sep 10, 2023
 <td class="listing-title">
 <a href="./posts/exploration/rcharris.html" class="title">The Palace of Purification</a>
 </td>
-<td class="listing-categories">
-</td>
 <td class="listing-reading-time">
 5 min
 </td>
@@ -1136,12 +1117,19 @@ Sep 10, 2023
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+</div>
+<p>I’m inching forwards on the following essays:</p>
+<ul>
+<li><p><strong>Markets, what are they good for?</strong> I explore the connection between individual beliefs and market prices in tedious detail. As recompense, I offer funky simulations, some tips for gambling, and an earnest call to the religion of Bayes.</p></li>
+<li><p><strong>Learning and exploration in social networks.</strong> As much as we’d like to think otherwise, we’re mostly not original thinkers. Many of our “first [x]”’s in life were accomplished by imitating those around us, and we’ve stuck with the racket since. There’s nothing <em>intrinsically</em> wrong with imitative learning, but novel ideas generally come from independent exploration, not to mention the benefits of learning-by-doing: watching someone ride a bike doesn’t get one very far. I explore the ways quantitative social scientists think about social learning and why being handed the answer-key might inhibit innovation.</p></li>
+<li><p><strong>The creative struggle of Robert Musil.</strong> I’m fascinated by creative processes: both the sane bits and the quirky routines adopted by creatives to ascend to “the zone”. I particularly enjoy nose-dives into the diaries of masterful writers: their articulate entries, judiciously recorded over years and decades, often as a way to stimulate their creative mind, offer an intimate window into the ebbs and flows of creative pursuits. Robert Musil, one of my favorite writers, is no exception to this, and his diaries, spanning over forty years of his life, have kernels of insight into creative struggle that I’m looking to share.</p></li>
+</ul>
 
-<ol>
-<li id="fn1"><p>The L-word is a mainstay of my personality.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
