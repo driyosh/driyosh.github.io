@@ -1,5 +1,6 @@
 ---
 title: "A (growing) mesh of links"
+margin-header: subscribe.html
 listing:
     id: posts-listing
     contents: posts

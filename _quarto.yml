@@ -6,7 +6,6 @@ website:
   title: "Driyosh"
   site-url: https://www.driyosh.com
   description: "Striving for harmony"
-  margin-header: subscribe.html
   sidebar:
     title: "Navigation"
     style: docked
